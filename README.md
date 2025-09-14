@@ -38,6 +38,8 @@ A Python script that extracts stock ticker data from the Polygon API and saves i
 
 ## Usage
 
+### 1. Data Extraction
+
 Run the script to fetch all available stock tickers:
 
 ```bash
@@ -49,6 +51,21 @@ The script will:
 - Fetch stock data page by page from Polygon API
 - Handle rate limiting automatically
 - Save all data to a timestamped CSV file
+
+### 2. Data Visualization
+
+Launch the Streamlit web app to explore and analyze your data:
+
+```bash
+streamlit run app.py
+```
+
+The web app provides:
+- 📊 Interactive data visualization
+- 🔍 Advanced filtering and search
+- 📈 Market and exchange analytics
+- 📋 Data export capabilities
+- 📱 Responsive design for all devices
 
 ## Output
 
@@ -80,6 +97,9 @@ The script automatically handles Polygon API rate limits:
 
 - `requests`: HTTP library for API calls
 - `python-dotenv`: Environment variable management
+- `streamlit`: Web app framework for data visualization
+- `pandas`: Data manipulation and analysis
+- `plotly`: Interactive plotting library
 
 ## Example Output
 
