@@ -1,0 +1,25 @@
+# Virtual environment
+pyenv/
+
+# Environment variables
+.env
+
+# Generated CSV files
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
